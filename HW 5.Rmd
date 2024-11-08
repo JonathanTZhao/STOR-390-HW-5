@@ -1,0 +1,22 @@
+---
+title: "HW 5"
+author: "Jonathan Zhao"
+date: "11/6/2024"
+output:
+  pdf_document: default
+  html_document:
+    number_sections: true
+---
+
+This homework is meant to give you practice in creating and defending a position with both statistical and philosophical evidence.  We have now extensively talked about the COMPAS ^[https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis] data set, the flaws in applying it but also its potential upside if its shortcomings can be overlooked.  We have also spent time in class verbally assessing positions both for an against applying this data set in real life.  In no more than two pages ^[knit to a pdf to ensure page count] take the persona of a statistical consultant advising a judge as to whether they should include the results of the COMPAS algorithm in their decision making process for granting parole.  First clearly articulate your position (whether the algorithm should be used or not) and then defend said position using both statistical and philosophical evidence.  Your paper will be grade both on the merits of its persuasive appeal but also the applicability of the statistical and philosohpical evidence cited.  
+
+
+*STUDENT RESPONSE*
+
+I believe that the results of the COMPAS algorithm should not be used in the decision making process for granting parole for both statistical reasons and moral reasons. As a court judge, it is vital to be as impartial and fair as possible, so any tools used to help make decisions should be impartial and fair too. However, COMPAS is not a fair algorithm because it incorrectly judges black defendants to be at a higher risk of recidivism than white defendants.
+
+From a statistical standpoint, the COMPAS algorithm should not be used because it violates the Separation fairness criteria, and is thus biased. The separation fairness criteria states that the true positive percentages and the false positive percentages should be equivalent for every group, so that an algorithm's predictions are the same regardless of any group membership. This is especially important when it comes to criminal justice, such as recidivism, because judges want to be impartial to group memberships like race and gender. COMPAS fails the Separation fairness criteria because the false positive rate for black defendants is 44.85, while the false positive rate for white defendants is 23.45. This shows that COMPAS is almost twice as more likely to misclassify black defendants than white defendants, and is thus biased. Since there should not be any form of bias in a fair and impartial decision, COMPAS should not be used to help aid decisions in court.
+
+Even if we look at this argument from a moral standpoint, COMPAS is still a problematic algorithm to use ethically. One of the biggest shortcoming of the COMPAS algorithm is how it incorrectly judges black defendants far more than white defendants. Now, let's put on John Rawl's Veil of Ignorance, and step into the shoes of a defendant. If you were unaware of your race, would you support a judge to use the COMPAS algorithm on you, knowing that it can have racial bias and unfairly impact you? The likely answer is no, because you would want the judge to choose a method that ensures an equal baseline of fairness. Additionally, under the principle of Equality as Fairness, it is only right to reject the use of a tool that disadvantages a certain group based on racial background. Because of the importance of being impartial as a court judge and the potential consequences that an incorrect judgement can have on a defendant's life, using methods that ensure equality are extremely important. As such, COMPAS in its current form is not viable for use. 
+
+Because of these reasons, I believe that you should not use the results of the COMPAS algorithm when deciding whether or not to grant parole. Although this may slow down the decision making process, it will allow you to make a more fair judgement. Since your decisions have a huge impact on people's lives, it is vital to be as fair as possible. Please keep my advice in mind for your future court decisions.
